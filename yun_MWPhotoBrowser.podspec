@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, '8.0'
   s.source_files = 'YunImageBrowser/YunImageBrowser/Classes/**/*'
   s.resource_bundles = {
-    'MWPhotoBrowser' => ['YunImageBrowser/YunImageBrowser/*.png']
+    'MWPhotoBrowser' => ['YunImageBrowser/YunImageBrowser/Assets/*.png']
   }
   s.requires_arc = true
 
