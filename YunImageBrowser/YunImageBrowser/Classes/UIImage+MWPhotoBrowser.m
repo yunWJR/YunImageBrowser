@@ -11,7 +11,18 @@
 @implementation UIImage (MWPhotoBrowser)
 
 + (UIImage *)imageForResourcePath:(NSString *)path ofType:(NSString *)type inBundle:(NSBundle *)bundle {
-    return [UIImage imageWithContentsOfFile:[bundle pathForResource:path ofType:type]];
+    //NSString *tmp = [bundle pathForResource:path ofType:type];
+
+    bundle = [NSBundle mainBundle];
+    NSString *resourcePath = [bundle resourcePath];
+    NSString *filePath = [resourcePath stringByAppendingPathComponent:@"PlayButtonOverlayLarge"];
+
+    UIImage *img = [UIImage imageWithContentsOfFile:filePath];
+
+
+    //UIImage *img = [UIImage imageWithContentsOfFile:[bundle pathForResource:path ofType:type]];
+
+    return img;
 }
 
 + (UIImage *)clearImageWithSize:(CGSize)size {
