@@ -938,6 +938,9 @@ static void *MWVideoPlayerObservation = &MWVideoPlayerObservation;
                 [_pagingScrollView addSubview:playButton];
                 page.playButton = playButton;
             }
+            else {
+                page.playButton = nil;
+            }
 
             // Add selected button
             if (self.displaySelectionButtons) {
@@ -967,7 +970,9 @@ static void *MWVideoPlayerObservation = &MWVideoPlayerObservation;
                 page.selectedButton = selectedButton;
                 selectedButton.selected = [self photoIsSelectedAtIndex:index];
             }
-
+            else {
+                page.selectedButton = nil;
+            }
         }
     }
 
