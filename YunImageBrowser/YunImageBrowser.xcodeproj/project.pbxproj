@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		095DE6A7EC9DAA7814809094 /* libPods-YunImageBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C109F1DCB7D1766D528B1C /* libPods-YunImageBrowser.a */; };
 		AE70B65B1FCD32BC00AA8B25 /* YunImageBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = AE70B6591FCD32BC00AA8B25 /* YunImageBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE70B69B1FCD333400AA8B25 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AE70B6621FCD333400AA8B25 /* .gitkeep */; };
 		AE70B69C1FCD333400AA8B25 /* ImageError.png in Resources */ = {isa = PBXBuildFile; fileRef = AE70B6631FCD333400AA8B25 /* ImageError.png */; };
 		AE70B69D1FCD333400AA8B25 /* ImageError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE70B6641FCD333400AA8B25 /* ImageError@2x.png */; };
 		AE70B69E1FCD333400AA8B25 /* ImageError@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE70B6651FCD333400AA8B25 /* ImageError@3x.png */; };
@@ -74,7 +73,6 @@
 		AE70B6561FCD32BC00AA8B25 /* YunImageBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YunImageBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE70B6591FCD32BC00AA8B25 /* YunImageBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YunImageBrowser.h; sourceTree = "<group>"; };
 		AE70B65A1FCD32BC00AA8B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE70B6621FCD333400AA8B25 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		AE70B6631FCD333400AA8B25 /* ImageError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageError.png; sourceTree = "<group>"; };
 		AE70B6641FCD333400AA8B25 /* ImageError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageError@2x.png"; sourceTree = "<group>"; };
 		AE70B6651FCD333400AA8B25 /* ImageError@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageError@3x.png"; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 		AE70B6611FCD333400AA8B25 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				AE70B6621FCD333400AA8B25 /* .gitkeep */,
 				AE70B6631FCD333400AA8B25 /* ImageError.png */,
 				AE70B6641FCD333400AA8B25 /* ImageError@2x.png */,
 				AE70B6651FCD333400AA8B25 /* ImageError@3x.png */,
@@ -376,7 +373,6 @@
 				AE70B6BD1FCD333400AA8B25 /* .gitkeep in Resources */,
 				AE70B6A71FCD333400AA8B25 /* ImageSelectedSmallOff@3x.png in Resources */,
 				AE70B6B81FCD333400AA8B25 /* UIBarButtonItemGrid@2x.png in Resources */,
-				AE70B69B1FCD333400AA8B25 /* .gitkeep in Resources */,
 				AE70B6D41FCD34FF00AA8B25 /* yun_MWPhotoBrowser.podspec in Resources */,
 				AE70B6BA1FCD333400AA8B25 /* VideoOverlay.png in Resources */,
 				AE70B6B71FCD333400AA8B25 /* UIBarButtonItemGrid.png in Resources */,
