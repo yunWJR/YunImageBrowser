@@ -65,6 +65,7 @@
 		AE70B6D11FCD333400AA8B25 /* UIImage+MWPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = AE70B6991FCD333400AA8B25 /* UIImage+MWPhotoBrowser.h */; };
 		AE70B6D21FCD333400AA8B25 /* UIImage+MWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = AE70B69A1FCD333400AA8B25 /* UIImage+MWPhotoBrowser.m */; };
 		AE70B6D41FCD34FF00AA8B25 /* yun_MWPhotoBrowser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AE70B6D31FCD34FF00AA8B25 /* yun_MWPhotoBrowser.podspec */; };
+		AE76CBF922DDB82100E0DFDE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE76CBF822DDB82100E0DFDE /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +130,7 @@
 		AE70B6991FCD333400AA8B25 /* UIImage+MWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MWPhotoBrowser.h"; sourceTree = "<group>"; };
 		AE70B69A1FCD333400AA8B25 /* UIImage+MWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MWPhotoBrowser.m"; sourceTree = "<group>"; };
 		AE70B6D31FCD34FF00AA8B25 /* yun_MWPhotoBrowser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = yun_MWPhotoBrowser.podspec; path = ../../yun_MWPhotoBrowser.podspec; sourceTree = "<group>"; };
+		AE76CBF822DDB82100E0DFDE /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		B0C109F1DCB7D1766D528B1C /* libPods-YunImageBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YunImageBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE76CBF922DDB82100E0DFDE /* AssetsLibrary.framework in Frameworks */,
 				095DE6A7EC9DAA7814809094 /* libPods-YunImageBrowser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +150,7 @@
 		50D0F1E546AD39FE3FDBC57F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE76CBF822DDB82100E0DFDE /* AssetsLibrary.framework */,
 				B0C109F1DCB7D1766D528B1C /* libPods-YunImageBrowser.a */,
 			);
 			name = Frameworks;
@@ -295,7 +299,6 @@
 				AE70B6521FCD32BC00AA8B25 /* Frameworks */,
 				AE70B6531FCD32BC00AA8B25 /* Headers */,
 				AE70B6541FCD32BC00AA8B25 /* Resources */,
-				4452C8B77A9484CB56E2D103 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -400,21 +403,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4452C8B77A9484CB56E2D103 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YunImageBrowser/Pods-YunImageBrowser-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
